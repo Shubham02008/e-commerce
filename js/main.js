@@ -108,6 +108,7 @@ if (categoryFilters) {
     if (element.type) {
       const categroy = element.dataset.category;
       renderCategories(categroy);
+      const url = element.dataset.url;
       fetchProduct(url);
     }
 
